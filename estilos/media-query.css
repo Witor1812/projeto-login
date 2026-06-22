@@ -36,4 +36,8 @@
         float: left;
         width: 50%;
     }
+
+    div#formulario > p {
+    font-size: 1.3em;
+    }
 }
