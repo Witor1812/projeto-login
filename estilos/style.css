@@ -78,7 +78,7 @@ form > div.campo {
 }
 
 div.campo > input {
-    background-color: #57bbb3;
+    background-color: #57bbb3ad;
     font-size: 1em;
     width: calc(100% - 45px);
     
