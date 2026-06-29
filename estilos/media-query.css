@@ -6,38 +6,60 @@
     }
 
     section#login {
-        width: 90vw;
+        width: 80vw;
+        height: 310px;
     }
 
-    div#imagem {
+    section#login > div#imagem {
         float: left;
         width: 30%;
         height: 100%;
     }
 
-    div#fomulario {
+    section#login > div#fomulario {
         float: right;
-        width: 65%;
+        width: 70%;
     }
 }
 
 @media screen and (min-width: 992px) {
-    section#login {
-        width: 980px;
+    body {
+        background-image: linear-gradient(to top, #af8baa, #51aba48f);
     }
 
-    div#imagem {
+    section#login {
+        width: 950px;
+        height: 350px;
+    }
+    
+    section#login > div#imagem {
         float: right;
-        width: 50%;
+        width: 49%;
         height: 100%;
     }
 
-    div#formulario {
+    section#login > div#formulario {
         float: left;
-        width: 50%;
+        width: 51%;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
     }
 
     div#formulario > p {
-    font-size: 1.3em;
+        font-size: 1.2em;
     }
+
+    form > div.campo {
+        width: 50%;
+    }
+
+    form > input[type=submit] {
+    width: 50%;
+}
+
+form > a.botao {
+    width: 50%;
+}
 }
