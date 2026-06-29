@@ -2,7 +2,7 @@
 
 /*
    paleta de cores
-    azul :#51ABA4
+    azul :
     roxo :#AF8BAA
 */
 
@@ -62,4 +62,34 @@ h1 {
 
 p {
     font-size: 0.8em;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1.3em;
+    width: 100%;
+    height: 40px;
+    background-color: #57bbb3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #3c7571;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1.3em;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    background-color: #58d6cc;
+    color: #488a84;
+    border: 1px solid #509690;
+    border-radius: 5px;
+    text-decoration: none;
 }
